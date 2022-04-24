@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ master ]
+    branches: [ sandbox ]
   pull_request:
-    branches: [ master ]
+    branches: [ sandbox ]
 jobs:
   build:
     runs-on: ubuntu-latest
